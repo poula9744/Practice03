@@ -23,7 +23,6 @@ public class Ex10 {
 		System.out.print("숫자: ");
 		int num05 = sc.nextInt();
 		
-		int i = 1;
 		while(true) {
 			if(num01>=num02 && num01>=num03 && num01>=num04 && num01>=num05) {
 				System.out.println("최대값은 "+num01+"입니다." );
@@ -41,7 +40,7 @@ public class Ex10 {
 				System.out.println("최대값은 "+num05+"입니다." );
 				break;
 			} 
-			i++;
+
 		}
 		
 
