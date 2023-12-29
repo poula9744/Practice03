@@ -13,7 +13,7 @@ public class Ex13 {
 		
 		int result = 0;
 		for(int i=1; i<=num; i++) {
-			result += i;
+			result = result + i;
 		}
 		
 		System.out.println("합계: " + result);

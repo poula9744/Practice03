@@ -12,8 +12,10 @@ public class Ex14 {
 			
 			int result = 0;
 			for(int i=1; i<=num; i++) {
-				result += i;
-				System.out.print("+" + i); //1 앞에 + 없애야함
+				result = result + i;
+				System.out.print(i);
+				System.out.print("+");//+어떻게 만드나요
+				
 			}System.out.println();
 			
 			System.out.println("합계: " + result);
