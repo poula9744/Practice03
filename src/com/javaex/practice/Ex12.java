@@ -12,7 +12,7 @@ public class Ex12 {
 		int result = 1;
 		
 		for(int i=1; i<=num; i++) {
-			result *= i; 
+			result =  result*i; 
 		}
 		
 		System.out.print("결과값: " + result);
