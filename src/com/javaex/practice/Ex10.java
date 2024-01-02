@@ -7,23 +7,23 @@ public class Ex10 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		int max = 0;
+
 		System.out.println("숫자를 입력하세요");
-		System.out.print("숫자: ");
-		int num01 = sc.nextInt();
+		for(int i=0; i<5; i++) {
+			System.out.print("숫자: ");
+			int num = sc.nextInt();
+			if (max < num) {
+				max = num;
+			}
+		} 
+
+		System.out.println("최대값은 " + max + " 입니다.");
 		
-		System.out.print("숫자: ");
-		int num02 = sc.nextInt();
 		
-		System.out.print("숫자: ");
-		int num03 = sc.nextInt();
 		
-		System.out.print("숫자: ");
-		int num04 = sc.nextInt();
 		
-		System.out.print("숫자: ");
-		int num05 = sc.nextInt();
-		
-		while(true) {
+/*		while(true) {
 			if(num01>=num02 && num01>=num03 && num01>=num04 && num01>=num05) {
 				System.out.println("최대값은 "+num01+"입니다." );
 				break;
@@ -43,7 +43,7 @@ public class Ex10 {
 
 		}
 		
-
+*/
 		sc.close();
 
 	}
